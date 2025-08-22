@@ -15,7 +15,7 @@ document.getElementById('frmCadastro').addEventListener('submit', function (e) {
     <td>${ano}</td>
   `;
 
-  alert('Veículo cadastrado com sucesso!');
+  // alert('Veículo cadastrado com sucesso!');
 
   txtMarca.value = '';
   txtModelo.value = '';

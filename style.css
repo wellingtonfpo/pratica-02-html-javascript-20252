@@ -65,13 +65,14 @@ body {
   border-collapse: collapse;
 }
 
+.tabela-veiculos th {
+  background-color: #064608;
+  border: 1px solid #fff;
+  color: #f4f4f4;
+}
+
 .tabela-veiculos th,
 td {
   border-bottom: 1px solid #064608;
   padding: 10px;
-}
-
-.tabela-veiculos thead {
-  background-color: #064608;
-  color: #f4f4f4;
 }
