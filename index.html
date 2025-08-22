@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenda de Carros Novo e Usados - FPO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">Revenda de Carros Novos e Usados</h1>
+    </div>
+    <div class="container">
+        <h2>Cadastro de Veículos</h2>
+        <form id="frmCadastro" class="form">
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca" name="marca" required autofocus>
+            
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo" name="modelo" required>
+
+            <label for="ano">Ano:</label>
+            <input type="text" id="ano" name="ano" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        <table class="tabela-veiculos">
+            <thead>
+                <tr>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Ano</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-veiculos">
+                <!-- Os veículos cadastrados serão exibidos aqui -->
+        </table>
+    </div>
+</body>
+</html>
